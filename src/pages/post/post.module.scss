@@ -1,1 +1,57 @@
-// TODO
+.banner {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.post {
+  margin-top: 80px;
+
+  h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    font-size: 14px;
+    margin-bottom: 64px;
+
+    svg {
+      margin-right: 8px;
+    }
+
+    span + svg {
+      margin-left: 24px;
+    }
+
+    time {
+      margin-right: 24px;
+    }
+  }
+}
+
+.content {
+  display: block !important;
+
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 36px;
+  }
+
+  div {
+    display: block !important;
+    p {
+      width: 100%;
+      font-size: 18px;
+
+      & + p {
+        margin-top: 8px;
+      }
+    }
+  }
+}
